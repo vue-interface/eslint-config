@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint --fix",
-    "bump:beta": "npm version prerelease --preid beta",
-    "publish:beta": "npm publish --tag beta"
+    "lint:fix": "eslint --fix"
   },
   "keywords": [
     "javascript",
@@ -22,8 +20,7 @@
   "devDependencies": {
     "@vue/eslint-config-typescript": "^11.0.2",
     "eslint": "^8.33.0",
-    "eslint-plugin-vue": "^9.9.0",
-    "prettier": "^2.8.4"
+    "eslint-plugin-vue": "^9.9.0"
   },
   "dependencies": {
     "typescript": "^4.9.5"
