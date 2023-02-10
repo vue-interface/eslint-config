@@ -15,6 +15,10 @@
     "lint",
     "config"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vue-interface/eslint-config.git"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
