@@ -12,7 +12,10 @@ module.exports = {
         'vue/component-tags-order': ['error', {
             'order': ['script', 'template', 'style']
         }],
-        'vue/component-name-in-template-casing': ['warn', 'PascalCase'],
+        'vue/component-name-in-template-casing': ['warn', 'PascalCase', {
+            'registeredComponentsOnly': false,
+            'ignores': []
+        }],
         'quotes': [2, 'single', { 'avoidEscape': true }],
         'vue/multi-word-component-names': 0,
         'vue/html-indent': ['error', 4, {
