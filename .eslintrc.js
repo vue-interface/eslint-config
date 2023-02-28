@@ -6,7 +6,7 @@ module.exports = {
     },
     extends: [
         'plugin:vue/vue3-recommended',
-        '@vue/eslint-config-typescript',
+        '@vue/eslint-config-typescript'
     ],
     rules: {
         'vue/component-tags-order': ['error', {
