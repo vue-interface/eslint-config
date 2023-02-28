@@ -4,6 +4,7 @@
   "description": "The ESLint config for Vue Interface",
   "main": "index.js",
   "scripts": {
+    "build": "",
     "lint": "eslint .",
     "lint:fix": "eslint --fix"
   },
