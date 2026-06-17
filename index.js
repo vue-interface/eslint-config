@@ -6,7 +6,7 @@ export default [
     ...vueTsEslintConfig(),
     {
         rules: {
-            'vue/component-tags-order': ['error', {
+            'vue/block-order': ['error', {
                 order: ['script', 'template', 'style'],
             }],
             'vue/component-name-in-template-casing': ['warn', 'PascalCase', {
