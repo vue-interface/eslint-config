@@ -1,6 +1,6 @@
 {
   "name": "@vue-interface/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "The ESLint config for Vue Interface",
   "type": "module",
   "main": "index.js",
